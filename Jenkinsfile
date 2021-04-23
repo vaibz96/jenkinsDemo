@@ -1,5 +1,6 @@
 pipeline{
     agent any
+    tools {node js "mynode"}
     stages{
         stage("Check Node Version"){
             steps{
